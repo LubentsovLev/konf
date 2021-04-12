@@ -75,7 +75,6 @@ textarea {
     padding: 0 20px;
     background-image: url(../img/titles/y.png);
     padding-top: 7px !important;
-    line-height: 26px;
   }
   &-y-dash {
     padding: 0 20px;
@@ -85,6 +84,7 @@ textarea {
   &-g {
     background-size: 100% 50px;
     padding: 0 20px;
+    padding-top: 7px;
     background-image: url(../img/titles/g.png);
   }
 }
