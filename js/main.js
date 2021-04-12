@@ -107,7 +107,6 @@ let team__item4 = document.querySelector('.team__item4');
 
 function textG(tx, tess, item) {
   tx.addEventListener('click', function () {
-    //debugger;
     tx.classList.toggle('tx');
     item.classList.toggle('ti__a');
     tess.classList.toggle('textUp');
@@ -206,9 +205,7 @@ const tour_popup_url = (url) => {
 };
 
 document.addEventListener('click', function (e) {
-  // debugger;
   if (e.target.getAttribute('sldier')) {
-    debugger;
     const url = e.target.getAttribute('sldier');
     tour_popup_url(url);
     tour_popup.classList.add('active');

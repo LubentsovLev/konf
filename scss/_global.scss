@@ -15,6 +15,9 @@ body {
   color: #000;
   font-size: 14px;
   background-color: #f3f8f8;
+  &.hidden {
+    overflow: hidden;
+  }
   // max-width: 1920px;
   // margin: 0 auto;
 }
@@ -71,6 +74,8 @@ textarea {
     background-size: 100% 40px;
     padding: 0 20px;
     background-image: url(../img/titles/y.png);
+    padding-top: 7px !important;
+    line-height: 26px;
   }
   &-y-dash {
     padding: 0 20px;

@@ -361,7 +361,7 @@
       height: 200px;
     }
     &-title {
-      font-size: 30px;
+      font-size: 30px !important;
     }
   }
   .models__item:nth-child(odd) {
@@ -369,6 +369,11 @@
   }
   .steps {
     padding-bottom: 40px;
+    max-width: 320px;
+    margin: 0 auto;
+    .steps__title {
+      text-align: right !important;
+    }
   }
   .steps__items {
     flex-direction: column;
