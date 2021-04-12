@@ -62,7 +62,7 @@ let ln_g = document.querySelector('.ln_g');
 let ln_5 = document.querySelector('.ln_5');
 let ln_6 = document.querySelector('.ln_6');
 let ln_7 = document.querySelector('.ln_7');
-let ln_8 = document.querySelector('.ln_8');
+// let ln_8 = document.querySelector('.ln_8');
 let ln_9 = document.querySelector('.ln_9');
 
 let openPop = function () {
@@ -78,7 +78,7 @@ function ln_pop(ln) {
 ln_pop(ln_1);
 ln_pop(ln_6);
 ln_pop(ln_7);
-ln_pop(ln_8);
+// ln_pop(ln_8);
 ln_pop(ln_9);
 ln_pop(ln_2);
 ln_pop(ln_3);
