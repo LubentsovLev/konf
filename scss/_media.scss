@@ -347,6 +347,9 @@
   }
 }
 @media (max-width: 890px) {
+  .tour-popup__container {
+    height: 70%;
+  }
   .steps__subtitle {
     margin-right: 0;
   }
@@ -364,7 +367,7 @@
       height: 200px;
     }
     &-title {
-      font-size: 30px !important;
+      font-size: 25px !important;
     }
   }
   .models__item:nth-child(odd) {
@@ -374,6 +377,9 @@
     padding-bottom: 40px;
     max-width: 320px;
     margin: 0 auto;
+    &__container {
+      padding: 0 10px;
+    }
     .steps__title {
       text-align: right !important;
     }
@@ -383,9 +389,14 @@
     justify-content: center;
   }
   .steps__item {
-    height: 400px;
+    height: 340px;
     padding: 20px;
     margin-bottom: 40px;
+    &-title {
+      font-size: 25px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
   }
   .planning__items-inn {
     flex-direction: column;
@@ -426,6 +437,16 @@
   }
 }
 @media (max-width: 670px) {
+  .done {
+    .what__title {
+      font-size: 22px;
+    }
+    .what__item {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
   .inPrice__items {
     display: flex;
     flex-direction: column;
@@ -896,6 +917,7 @@
     padding-right: 0;
     text-transform: uppercase;
     font-size: 14px;
+    max-width: 100%;
   }
   .planning__items-text {
     font-size: 23px;

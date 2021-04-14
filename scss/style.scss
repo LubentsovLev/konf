@@ -340,7 +340,7 @@
 }
 .offer {
   background-color: #e1e4e5;
-  padding: 70px 0 100px;
+  padding: 75px 0 120px;
   &__container {
   }
   &__title {
@@ -1421,11 +1421,6 @@
     &:nth-child(odd) {
       margin-right: 30px;
     }
-    &:nth-last-child(1) {
-      .models__item-title {
-        font-size: 37px;
-      }
-    }
     &-img {
       max-width: 475px;
       height: 350px;
@@ -1437,7 +1432,7 @@
       }
     }
     &-title {
-      font-size: 44px;
+      font-size: 32px;
       margin-bottom: 5px;
       font-weight: 400;
     }
