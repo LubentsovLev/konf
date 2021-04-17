@@ -437,6 +437,10 @@
   }
 }
 @media (max-width: 670px) {
+  .planning__titles {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
   .done {
     .what__title {
       font-size: 22px;

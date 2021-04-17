@@ -598,6 +598,16 @@
     padding-bottom: 20px;
     text-align: right;
   }
+  &__titles {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    h1 {
+      width: 100%;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
   &__subtitle {
     text-align: right;
     padding-bottom: 45px;
@@ -1562,7 +1572,6 @@
     }
   }
   &__container {
-    overflow-x: scroll;
     background-color: #fff;
     position: relative;
     width: 100%;
